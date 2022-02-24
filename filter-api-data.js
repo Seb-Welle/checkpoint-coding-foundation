@@ -1,3 +1,9 @@
 function filterApiData(apiData, mandatoryKeys) {
-  // Add you solution here
+const result = apiData.filter((Element) => mandatoryKeys);
+}
+
+function isMandatoryObject(key) {
+  for (let i = 0; i < key.length; i++){
+    if
+  }
 }
